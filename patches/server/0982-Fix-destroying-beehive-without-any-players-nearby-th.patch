@@ -8,7 +8,7 @@ If the player moves out of range by the time the block is destroyed,
 then the exception would throw and remove the player from the world
 
 diff --git a/src/main/java/net/minecraft/world/level/block/BeehiveBlock.java b/src/main/java/net/minecraft/world/level/block/BeehiveBlock.java
-index ca6cf92b96d68ba8b34e90edda2a93e11214c91b..d5dd280fbbd87438c72d439a73ea827b9fbe20b0 100644
+index ca6cf92b96d68ba8b34e90edda2a93e11214c91b..8e0ef957aad8228fa3f7b50725e4f549a98b27ce 100644
 --- a/src/main/java/net/minecraft/world/level/block/BeehiveBlock.java
 +++ b/src/main/java/net/minecraft/world/level/block/BeehiveBlock.java
 @@ -98,6 +98,11 @@ public class BeehiveBlock extends BaseEntityBlock {

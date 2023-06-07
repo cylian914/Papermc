@@ -16,7 +16,7 @@ sections with a ZeroBitStorage data to to take ~20% of the process,
 now it takes <1%.
 
 diff --git a/src/main/java/net/minecraft/world/level/chunk/LevelChunkSection.java b/src/main/java/net/minecraft/world/level/chunk/LevelChunkSection.java
-index 1b80a91fa36c59a31b57ef7ef4a68eacbb0f17f5..cf2c053a0e82928c7a7cf99abe1bbd1eb7824507 100644
+index 1b80a91fa36c59a31b57ef7ef4a68eacbb0f17f5..854865f28bcae0fb0c17717c914687f78e951e21 100644
 --- a/src/main/java/net/minecraft/world/level/chunk/LevelChunkSection.java
 +++ b/src/main/java/net/minecraft/world/level/chunk/LevelChunkSection.java
 @@ -244,6 +244,7 @@ public class LevelChunkSection {
